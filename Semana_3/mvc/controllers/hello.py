@@ -1,6 +1,7 @@
 import web
-
-class Visitas:
+from datetime import date
+from datetime import datetime
+class visita:
   def GET(self,nombre):
     try:
       now = datetime.now()
